@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# OS/Editor
+.DS_Store
+.vscode/
+
+# Streamlit/Cache等（必要なら）
+.streamlit/secrets.toml
+EOF
